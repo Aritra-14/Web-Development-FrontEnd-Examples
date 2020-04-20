@@ -1,0 +1,1025 @@
+<HTML>
+<HEAD>
+<TITLE>Calculate</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFCC">
+<CENTER>
+<H1>Calculate</H1>
+<H1>Temperature Conversion</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Temperature in Centigrade</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="centigrade"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="convert(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>Temperature in Fahrenheit</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_in_fah" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>	
+        <TD>Temperature in Romer</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_in_rom" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Book Price Calculation</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Book Price</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="book_price"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="bookPrice(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>Discount Price</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_in_dis" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>	
+        <TD>Final Price</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_in_final_book_price" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Check If Number of 3 Digits or Not!</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Number</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="check_digits"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="check_digits_of_number(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>We have the result for you!</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_chk_digits" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Check If You Can Form A Triangle or Not!</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Side A</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="side1"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="check_if_its_a_triangle(this.form)"></TD>
+</TR>
+<TR>
+	    <TD>Enter Side B</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="side2"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter Side C</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="side3"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>	
+        <TD>We have the result for you!</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_if_triangle_can_be_formed" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Check If Its a Leap Year or Not!</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Year</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="year"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="check_if_its_a_leap_year(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>We have the result for you!</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_if_its_a_leap_year" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Telephone Bill</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter No. of Calls</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="no_of_calls"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="telephone_bill_cost(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>Telephone Bill (Rs.)</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_telephone_bill" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>GCD and LCM</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter First Number</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="first_no"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="gcd_lcm(this.form)"></TD>
+</TR>
+<TR>
+	    <TD>Enter Second Number</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="second_no"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter Third Number</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="third_no"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>	
+        <TD>GCD</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_gcd" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>	
+        <TD>LCM</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_lcm" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Decimal to Binary</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter No. in Decimal</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="no_in_decimal"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="decimal_to_binary(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>The No. in Binary</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_no_in_binary" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Registration Charge of Letter</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Weight (in gm)</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="weight_of_letter"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="registration_charge_of_letter(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>Registration Charge(Rs.)</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_registration_charge" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Check Divisibility by 3</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Number</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="no_for_divisibility_by_three"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="check_divisibility_by_three(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>We have the result for you!</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_divisibility_by_three" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Fibonacci Sequence</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Result of 1 to 100</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="50" NAME="Result_fibonacci_sequence" readonly></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="Fibonacci_sequence(this.form)"></TD>
+</TR>
+
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Check If Armstrong Number</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Number</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="no_if_armstrong"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="check_if_armstrong_no(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>We have the result for you!</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_if_armstrong" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Sum of 6 Digit Number</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Number</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="20" NAME="no_whose_sum_to_be_done"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="sum_of_six_digits(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>We have the result for you!</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="20" NAME="Result_of_sum_of_six_digits" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Banking Transaction</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter Principal (Rs.)</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="principal"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="banking_transaction(this.form)"></TD>
+</TR>
+<TR>
+	    <TD>Enter Rate of Interest (%)</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="roi"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter Period</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="period"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>	
+        <TD>Amount Payable (Rs.)</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_amount_payable" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Quadratic Equations Roots</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter 'a' value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="a_value"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="quadratic_roots(this.form)"></TD>
+</TR>
+<TR>
+	    <TD>Enter 'b' value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="b_value"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 'c' value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="c_value"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>	
+        <TD>Roots</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_roots" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Finding Maximum, Minimum, Average</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter 1st value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_1"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="max_min_avg(this.form)"></TD>
+</TR>
+<TR>
+	    <TD>Enter 2nd value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_2"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 3rd value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_3"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 4th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_4"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 5th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_5"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 6th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_6"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 7th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_7"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 8th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_8"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 9th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_9"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 10th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="value_10"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Maximum of them</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_max"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Minimum of them</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_min"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Average of them</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_avg"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Sorting</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter 1st value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_1"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="sorting_aesc_desc(this.form)"></TD>
+</TR>
+<TR>
+	    <TD>Enter 2nd value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_2"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 3rd value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_3"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 4th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_4"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 5th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_5"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 6th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_6"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 7th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_7"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 8th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_8"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 9th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_9"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Enter 10th value</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="value_10"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Sorted in Ascending order</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="Result_aesc_sort"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+<TR>
+	    <TD>Sorted in Descending order</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="30" NAME="Result_desc_sort"></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Shorten your name</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter String</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="entered_string_for_shortening"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="shortening_name(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>We have the result for you!</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_after_shortening" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Find If Pallindrome</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter String</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="entered_string_for_palindrome"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="find_no_of_palindrome(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>Is it a pallindrome?</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_if_palindrome" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+<CENTER>
+<H1>Find No. of Vowels</H1>
+<FORM>
+<TABLE BORDER="1">
+
+<TR>
+	    <TD>Enter String</TD>
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="entered_string_for_vowels"></TD>
+        <TD><INPUT TYPE="BUTTON" VALUE="Result" onClick="find_no_of_vowels(this.form)"></TD>
+</TR>
+<TR>	
+        <TD>We have the result for you!</td>  
+	    <TD><INPUT TYPE="TEXT" SIZE="10" NAME="Result_no_of_vowels" readonly></TD>
+        <TD><INPUT TYPE="Reset" VALUE=" Clear "></TD>
+</TR>
+</TABLE>
+</FORM>
+</CENTER>
+
+</BODY>
+</HTML>
+<SCRIPT>
+function convert(FormValue)
+{
+ var centigrade=parseFloat(FormValue.centigrade.value)
+ fah= (9*centigrade/5)+32;
+ rom=4*centigrade/5;
+ FormValue.Result_in_fah.value=fah.toFixed(2); 
+ FormValue.Result_in_rom.value=rom.toFixed(2); 
+}
+
+function bookPrice(FormValue)
+{
+ var book_price=parseFloat(FormValue.book_price.value)
+ dis= (0.1375*book_price).toFixed(2);
+ final_book_price= (book_price-dis);
+ FormValue.Result_in_dis.value=dis; 
+ FormValue.Result_in_final_book_price.value=final_book_price.toFixed(2); 
+}
+
+function check_digits_of_number(FormValue)
+{
+ var check_digits=parseFloat(FormValue.check_digits.value)
+ check_digits=Math.abs(check_digits);
+if(Math.ceil(check_digits)==Math.floor(check_digits) )
+ {	
+	temp = check_digits;
+	count=0;
+	while(temp>0)
+	{
+		temp=parseInt(temp/10);
+		count++;
+	}
+	if(count==3)
+		FormValue.Result_chk_digits.value="3 digit No.";
+	else
+		FormValue.Result_chk_digits.value="Not 3 digit No.";
+ }
+else
+	alert("Enter Integer Only");
+}
+
+function check_if_its_a_triangle(FormValue)
+{
+ var side1=parseFloat(FormValue.side1.value).toFixed(2);
+ var side2=parseFloat(FormValue.side2.value).toFixed(2);
+ var side3=parseFloat(FormValue.side3.value).toFixed(2);
+ if(side1<0)
+ {
+	alert("Enter valid side");
+	return;
+ }
+ if(side2<0)
+ {
+	alert("Enter valid side");
+	return;
+ }
+ if(side3<0)
+ {
+	alert("Enter valid side");
+	return;
+ }
+ if( ((+side1 + +side2) <= side3) )
+	FormValue.Result_if_triangle_can_be_formed.value="No";
+ else if( ((+side2 + +side3) <= side1) )
+	FormValue.Result_if_triangle_can_be_formed.value="No";
+ else if( ((+side3 + +side1) <= side2) )
+	FormValue.Result_if_triangle_can_be_formed.value="No";
+ else
+	FormValue.Result_if_triangle_can_be_formed.value="Yes";
+}
+
+function check_if_its_a_leap_year(FormValue)
+{
+ var year=parseFloat(FormValue.year.value);
+ if(year<0)
+ {
+	alert("Enter valid year");
+	return;
+ }
+ if(Math.ceil(year)==Math.floor(year))
+ {	
+	if (year % 400 == 0) 
+        FormValue.Result_if_its_a_leap_year.value="Yes"; 
+    else if (year % 100 == 0) 
+        FormValue.Result_if_its_a_leap_year.value="No";
+    else if (year % 4 == 0) 
+        FormValue.Result_if_its_a_leap_year.value="Yes"; 
+	else
+		FormValue.Result_if_its_a_leap_year.value="No";
+ }
+ else
+	alert("Enter a Valid  Year Only");
+}
+
+function telephone_bill_cost(FormValue)
+{
+ var no_of_calls=parseFloat(FormValue.no_of_calls.value);
+ var additional_cost=0;
+ if(Math.ceil(no_of_calls)!=Math.floor(no_of_calls))
+ {
+	alert("Enter valid no of calls");
+	return;
+ }
+ if(no_of_calls<0)
+	alert("Enter a Valid  Number of Calls Only");
+ else
+ {
+	if(no_of_calls<=50)
+		additional_cost=0;
+		
+	else if(no_of_calls>50 && no_of_calls<=150)
+		additional_cost=0.80*(no_of_calls-50);
+		
+	else if(no_of_calls>150 && no_of_calls<=400)
+		additional_cost=1.00*(no_of_calls-150);
+		
+	else if(no_of_calls>400 && no_of_calls<=1000)
+		additional_cost=1.20*(no_of_calls-400);
+		
+	else if(no_of_calls>1000)
+		additional_cost=1.50;
+	
+	FormValue.Result_telephone_bill.value=(250+additional_cost+0.125*additional_cost).toFixed(2);
+ }
+}
+
+function gcd_lcm(FormValue)
+{
+	var n1=parseFloat(FormValue.first_no.value);
+	var n2=parseFloat(FormValue.second_no.value);
+	var n3=parseFloat(FormValue.third_no.value); 
+	pro=n1*n2*n3;
+	var i,lcm,hcf=1;
+	for(i=1;i<=pro;i++)
+	{
+		if(i%n1==0 && i%n2==0 && i%n3==0)
+		{
+			lcm=i;
+			break;
+		}
+	}          
+	FormValue.Result_lcm.value=lcm;
+	for(i=2;i<=pro;i++)
+	{
+		if(n1%i==0 && n2%i==0 && n3%i==0)
+		{
+			hcf=i;
+			continue;
+		}
+	}        
+	FormValue.Result_gcd.value=hcf;
+}
+
+function decimal_to_binary(FormValue)
+{
+	var n=parseFloat(FormValue.no_in_decimal.value);
+	var binaryNum = new Array(32);
+    var i = 0;
+	var j = 0;
+    while (n > 0) 
+	{ 
+        binaryNum[i] = n % 2; 
+        n = parseInt(n / 2); 
+        i++; 
+    } 
+	var str = new String(""); 
+    for (j = i - 1; j >= 0; j--) 
+        str = str + binaryNum[j];
+	
+	
+	FormValue.Result_no_in_binary.value=str;
+}
+
+function registration_charge_of_letter(FormValue)
+{
+	var weight_of_letter = parseFloat(FormValue.weight_of_letter.value);
+	var cost = 0;
+	if(weight_of_letter<0)
+		alert("Enter a Valid  Weight Only");
+	else
+	{
+		if(weight_of_letter<=20)
+			FormValue.Result_registration_charge.value=5;
+		else if(weight_of_letter>20 && weight_of_letter<=100)
+			FormValue.Result_registration_charge.value=9;
+		else if(weight_of_letter>100 && weight_of_letter<=500)
+			FormValue.Result_registration_charge.value=15;
+		else 
+			FormValue.Result_registration_charge.value="Not by post";
+	}
+}
+
+function check_divisibility_by_three(FormValue)
+{
+	var no_for_divisibility_by_three = parseFloat(FormValue.no_for_divisibility_by_three.value);
+	no_for_divisibility_by_three=Math.abs(no_for_divisibility_by_three);
+	var check_digits=no_for_divisibility_by_three;
+	var sum=0;
+	if(Math.ceil(check_digits)==Math.floor(check_digits) )
+	{	
+		temp = check_digits;
+		count=0;
+		while(temp>0)
+		{
+			sum = sum+temp%10;
+			temp=parseInt(temp/10);
+			count++;
+		}
+		if(count==3)
+		{
+			if(sum%3 == 0)
+				FormValue.Result_divisibility_by_three.value="Yes Divisible by 3";
+			else
+				FormValue.Result_divisibility_by_three.value="Not Divisible by 3";
+		}
+		else
+			FormValue.Result_divisibility_by_three.value="Not 3 digit No.";
+	}
+	else
+		alert("Enter Integer Only");
+}
+
+function Fibonacci_sequence(FormValue)
+{
+			n=11;
+			Term_1=1;
+			Term_2=1;
+			 var str=new String("");
+			for (i = 1; i <= n; i++) 
+			{
+				str = str + " " + Term_1 + " ";
+				nxt_Term = Term_1 + Term_2;
+				Term_1 = Term_2;
+				Term_2 = nxt_Term;
+			}
+			FormValue.Result_fibonacci_sequence.value=str;
+}
+
+function check_if_armstrong_no(FormValue)
+{
+	var temp = parseFloat(FormValue.no_if_armstrong.value);
+	temp=Math.abs(temp);
+	if((Math.ceil(temp)==Math.floor(temp)))
+	{
+				rem=0;
+				i = temp;
+				var s = 0;
+				while(temp>0)
+				{
+					rem = temp%10;
+					s = s + (rem*rem*rem);
+					temp=parseInt(temp/10);
+				}
+				if(i == s)
+				{
+					FormValue.Result_if_armstrong.value="Yes";
+				}
+				else
+				{
+					FormValue.Result_if_armstrong.value="No";
+				}
+	}
+	else
+		alert("Enter Valid No.");
+}
+
+function sum_of_six_digits(FormValue)
+{
+	var temp = parseFloat(FormValue.no_whose_sum_to_be_done.value);
+	sum=0;
+	temp = Math.abs(temp);
+	if(Math.ceil(temp)==Math.floor(temp))
+	{	
+		count=0;
+		while(temp>0)
+		{
+			sum = sum+temp%10;
+			temp=parseInt(temp/10);
+			count++;
+		}
+		if(count==6)
+			FormValue.Result_of_sum_of_six_digits.value=sum;
+		else
+			FormValue.Result_of_sum_of_six_digits.value="Not a 6 digit no.";
+	}
+	else
+		alert("Enter Integer Only");
+}
+
+function banking_transaction(FormValue)
+{
+	var principal = parseFloat(FormValue.principal.value);
+	if(principal<0)
+		alert("Enter valid principal");
+	var roi = parseFloat(FormValue.roi.value);
+	if(roi<0)
+		alert("Enter valid Rate of Interest");
+	var period = parseFloat(FormValue.period.value);
+	if(period<0)
+		alert("Enter valid period");
+	
+	temp = (1 - roi/100);
+	temp1 = Math.pow(temp,period);
+	amt = principal*temp1;
+	FormValue.Result_amount_payable.value=amt.toFixed(2);
+}
+
+function quadratic_roots(FormValue)
+{
+	var a_value=parseFloat(FormValue.a_value.value);
+	var b_value=parseFloat(FormValue.b_value.value);
+	var c_value=parseFloat(FormValue.c_value.value);
+	
+	var temp = (b_value*b_value)-(4*a_value*c_value);
+	if(temp<0)
+		FormValue.Result_roots.value="Complex Roots";
+	else
+	{
+		var temp1 = Math.sqrt(temp);
+		var root1 = (((-b_value)+temp1)/(2*a_value)).toFixed(2);
+		var root2 = (((-b_value)-temp1)/(2*a_value)).toFixed(2);
+		var str=new String("");
+		str = root1+","+root2;
+		FormValue.Result_roots.value=str;
+	}
+}
+
+function max_min_avg(FormValue)
+{
+	var value_1=parseFloat(FormValue.value_1.value);
+	var value_2=parseFloat(FormValue.value_2.value);
+	var value_3=parseFloat(FormValue.value_3.value);
+	var value_4=parseFloat(FormValue.value_4.value);
+	var value_5=parseFloat(FormValue.value_5.value);
+	var value_6=parseFloat(FormValue.value_6.value);
+	var value_7=parseFloat(FormValue.value_7.value);
+	var value_8=parseFloat(FormValue.value_8.value);
+	var value_9=parseFloat(FormValue.value_9.value);
+	var value_10=parseFloat(FormValue.value_10.value);
+	
+	var arr=[value_1,value_2,value_3,value_4,value_5,value_6,value_7,value_8,value_9,value_10]; 
+	var maximum=arr[0];
+	var minimum=arr[0];
+	var sum=0;
+	for (i=0; i<10; i++)
+	{
+		if( maximum<arr[i])
+			maximum=arr[i];
+		if( minimum>arr[i])
+			minimum=arr[i];
+		sum = sum+arr[i];
+	}
+	FormValue.Result_max.value=maximum;
+	FormValue.Result_min.value=minimum;
+	FormValue.Result_avg.value=(sum/10).toFixed(2);
+}
+
+function sorting_aesc_desc(FormValue)
+{
+	var value_1=parseFloat(FormValue.value_1.value);
+	var value_2=parseFloat(FormValue.value_2.value);
+	var value_3=parseFloat(FormValue.value_3.value);
+	var value_4=parseFloat(FormValue.value_4.value);
+	var value_5=parseFloat(FormValue.value_5.value);
+	var value_6=parseFloat(FormValue.value_6.value);
+	var value_7=parseFloat(FormValue.value_7.value);
+	var value_8=parseFloat(FormValue.value_8.value);
+	var value_9=parseFloat(FormValue.value_9.value);
+	var value_10=parseFloat(FormValue.value_10.value);
+	
+	var arr=[value_1,value_2,value_3,value_4,value_5,value_6,value_7,value_8,value_9,value_10];
+	for(i = 0; i < 9; i++)
+    {
+        for(j = 0; j < 9 - i; j++)
+        {
+            if(arr[j] > arr[j + 1])
+            {
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+	var str=new String("");
+	for(i=0;i<10;i++)
+	{
+		str = str + arr[i] + " ";
+	}
+	FormValue.Result_aesc_sort.value=str;
+	str="";
+	
+	for(i=9;i>=0;i--)
+	{
+		str = str + arr[i] + " ";
+	}
+	FormValue.Result_desc_sort.value=str;
+}
+
+function shortening_name(FormValue)
+{
+	var entered_string_for_shortening=FormValue.entered_string_for_shortening.value;
+	entered_string_for_shortening=" "+entered_string_for_shortening;
+	len = entered_string_for_shortening.length;
+	var str=new String("");
+	//var str2=new String("");
+	var arr = new Array();
+	j=0;
+	for(i=0;i<len;i++)
+	{
+		if(entered_string_for_shortening.charAt(i)==' ')
+		{
+			//str1=str1+" "+entered_string_for_shortening.charAt(i+1)+".";
+			arr[j]=i;
+			j++;
+		}
+	}
+	for(i=0;i<arr.length-1;i++)
+	{
+		if(i==0)
+			str=str+entered_string_for_shortening.charAt(1)+". ";
+		else
+			str=str+entered_string_for_shortening.charAt(arr[i]+1)+". ";
+	}
+	str=str+entered_string_for_shortening.substring(arr[i],len+1);
+	FormValue.Result_after_shortening.value=str;
+}
+
+function find_no_of_palindrome(FormValue)
+{
+	var entered_string_for_palindrome=FormValue.entered_string_for_palindrome.value;
+	var len=entered_string_for_palindrome.length;
+	j=0;
+	flag=0;
+	
+	for (var i = 0; i < len/2; i++) 
+	{
+		if (entered_string_for_palindrome[i] !== entered_string_for_palindrome[len - 1 - i]) 
+		{
+			FormValue.Result_if_palindrome.value="No";
+			return false;
+		}
+	}
+	FormValue.Result_if_palindrome.value="Yes";
+	return true;
+}
+
+function find_no_of_vowels(FormValue)
+{
+	var entered_string_for_vowels=FormValue.entered_string_for_vowels.value;
+	var count=0;
+	for(i=0; i<entered_string_for_vowels.length; i++)
+	{
+		if(entered_string_for_vowels.charAt(i)=='a')
+			count++;
+		else if(entered_string_for_vowels.charAt(i)=='e')
+			count++;
+		else if(entered_string_for_vowels.charAt(i)=='i')
+			count++;
+		else if(entered_string_for_vowels.charAt(i)=='o')
+			count++;
+		else if(entered_string_for_vowels.charAt(i)=='u')
+			count++;
+		else if(entered_string_for_vowels.charAt(i)=='A')
+			count++;
+		else if(entered_string_for_vowels.charAt(i)=='E')
+			count++;
+		else if(entered_string_for_vowels.charAt(i)=='I')
+			count++;
+		else if(entered_string_for_vowels.charAt(i)=='O')
+			count++;
+		else if(entered_string_for_vowels.charAt(i)=='U')
+			count++;
+	}
+	FormValue.Result_no_of_vowels.value=count;
+}
+ </script>
+
+
+
+
